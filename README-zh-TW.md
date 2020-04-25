@@ -1,9 +1,9 @@
-*[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) | [Brazilian Portuguese](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Italian](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [Korean](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [Persian](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polish](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [Russian](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Turkish](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [Vietnamese](https://github.com/donnemartin/system-design-primer/issues/127) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
+*[English](README.md) ∙ [日本語](README-ja.md) ∙ [简体中文](README-zh-Hans.md) ∙ [繁體中文](README-zh-TW.md) | [العَرَبِيَّة‎](https://github.com/donnemartin/system-design-primer/issues/170) ∙ [বাংলা](https://github.com/donnemartin/system-design-primer/issues/220) ∙ [Português do Brasil](https://github.com/donnemartin/system-design-primer/issues/40) ∙ [Deutsch](https://github.com/donnemartin/system-design-primer/issues/186) ∙ [ελληνικά](https://github.com/donnemartin/system-design-primer/issues/130) ∙ [עברית](https://github.com/donnemartin/system-design-primer/issues/272) ∙ [Italiano](https://github.com/donnemartin/system-design-primer/issues/104) ∙ [韓國語](https://github.com/donnemartin/system-design-primer/issues/102) ∙ [فارسی](https://github.com/donnemartin/system-design-primer/issues/110) ∙ [Polski](https://github.com/donnemartin/system-design-primer/issues/68) ∙ [русский язык](https://github.com/donnemartin/system-design-primer/issues/87) ∙ [Español](https://github.com/donnemartin/system-design-primer/issues/136) ∙ [ภาษาไทย](https://github.com/donnemartin/system-design-primer/issues/187) ∙ [Türkçe](https://github.com/donnemartin/system-design-primer/issues/39) ∙ [tiếng Việt](https://github.com/donnemartin/system-design-primer/issues/127) ∙ [Français](https://github.com/donnemartin/system-design-primer/issues/250) | [Add Translation](https://github.com/donnemartin/system-design-primer/issues/28)*
 
 # 系統設計入門
 
 <p align="center">
-  <img src="http://i.imgur.com/jj3A5N8.png">
+  <img src="http://i.imgur.com/jj3A5N8.png"/>
   <br/>
 </p>
 
@@ -44,7 +44,7 @@
 ## 學習單字卡
 
 <p align="center">
-  <img src="http://i.imgur.com/zdCAkB3.png">
+  <img src="http://i.imgur.com/zdCAkB3.png"/>
   <br/>
 </p>
 
@@ -61,7 +61,7 @@
 你正在尋找資源來面對[**程式語言面試**](https://github.com/donnemartin/interactive-coding-challenges)嗎？
 
 <p align="center">
-  <img src="http://i.imgur.com/b4YtAEN.png">
+  <img src="http://i.imgur.com/b4YtAEN.png"/>
   <br/>
 </p>
 
@@ -91,20 +91,20 @@
 > 每一章節都包含更深入資源的連結。
 
 <p align="center">
-  <img src="http://i.imgur.com/jrUBAF7.png">
+  <img src="http://i.imgur.com/jrUBAF7.png"/>
   <br/>
 </p>
 
-* [系統設計主題：從這裡開始](#系統設計主題：從這裡開始)
-    * [第一步：複習關於可擴展性的影片講座](#第一步：複習關於可擴展性的影片講座)
-    * [第二步：複習關於可擴展性的文章](#第二步：複習關於可擴展性的文章)
+* [系統設計主題：從這裡開始](#系統設計主題從這裡開始)
+    * [第一步：複習關於可擴展性的影片講座](#第一步複習關於可擴展性的影片講座)
+    * [第二步：複習關於可擴展性的文章](#第二步複習關於可擴展性的文章)
     * [下一步](#下一步)
 * [效能與可擴展性](#效能與可擴展性)
 * [延遲與吞吐量](#延遲與吞吐量)
 * [可用性與一致性](#可用性與一致性)
-    * [CAP 理論](#CAP-理論)
-        * [CP - 一致性與部分容錯性](#CP-一致性與部分容錯性)
-        * [AP - 可用性與部分容錯性](#AP-可用性與部分容錯性)
+    * [CAP 理論](#cap-理論)
+        * [CP-一致性與部分容錯性](#cp-一致性與部分容錯性)
+        * [AP-可用性與部分容錯性](#ap-可用性與部分容錯性)
 * [一致性模式](#一致性模式)
     * [弱一致性](#弱一致性)
     * [最終一致性](#最終一致性)
@@ -113,37 +113,37 @@
     * [容錯轉移](#容錯轉移)
     * [複寫機制](#複寫機制)
 * [域名系統](#域名系統)
-* [內容傳遞網路(CDN)](#內容傳遞網路(CDN))
-    * [推送式 CDNs](#推送式-CDNs)
-    * [拉取式 CDNs](#拉取式-CDNs)
+* [內容傳遞網路(CDN)](#內容傳遞網路cdn)
+    * [推送式 CDNs](#推送式-cdns)
+    * [拉取式 CDNs](#拉取式-cdns)
 * [負載平衡器](#負載平衡器)
-    * [主動到備用切換模式(AP Mode)](#主動到備用切換模式-(AP-Mode)-)
-    * [雙主動切換模式(AA Mode)](#雙主動切換模式-(AA-Mode)-)
+    * [主動到備用切換模式(AP Mode)](#主動到備用切換模式ap-mode)
+    * [雙主動切換模式(AA Mode)](#雙主動切換模式aa-mode)
     * [第四層負載平衡](#第四層負載平衡)
     * [第七層負載平衡](#第七層負載平衡)
     * [水平擴展](#水平擴展)
-* [反向代理(網頁伺服器)](#反向代理(網頁伺服器))
+* [反向代理(網頁伺服器)](#反向代理網頁伺服器)
     * [負載平衡器與反向代理伺服器](#負載平衡器與反向代理伺服器)
 * [應用層](#應用層)
     * [微服務](#微服務)
     * [服務發現](#服務發現)
 * [資料庫](#資料庫)
-    * [關連式資料庫管理系統(RDBMS)](#關連式資料庫管理系統(RDBMS))
+    * [關連式資料庫管理系統(RDBMS)](#關連式資料庫管理系統rdbms)
         * [主從複寫](#主從複寫)
         * [主動模式複寫](#主動模式複寫)
         * [聯邦式資料庫](#聯邦式資料庫)
         * [分片](#分片)
         * [反正規化](#反正規化)
-        * [SQL 優化](#SQL-優化)
-    * [NoSQL](#NoSQL)
+        * [SQL 優化](#sql-優化)
+    * [NoSQL](#nosql)
         * [鍵-值對的資料庫](#鍵-值對的資料庫)
         * [文件類型資料庫](#文件類型資料庫)
         * [列儲存型資料庫](#列儲存型資料庫)
         * [圖形資料庫](#圖形資料庫)
-    * [SQL 或 NoSQL](#SQL-或-NoSQL)
+    * [SQL 或 NoSQL](#sql-或-nosql)
 * [快取](#快取)
     * [客戶端快取](#客戶端快取)
-    * [CDN 快取](#CDN-快取)
+    * [CDN 快取](#cdn-快取)
     * [網站伺服器快取](#網站伺服器快取)
     * [資料庫快取](#資料庫快取)
     * [應用程式快取](#應用程式快取)
@@ -152,21 +152,21 @@
     * [什麼時候要更新快取](#什麼時候要更新快取)
         * [快取模式](#快取模式)
         * [寫入模式](#寫入模式)
-        * [事後寫入(回寫)](#事後寫入(回寫))
+        * [事後寫入(回寫)](#事後寫入回寫)
         * [更新式快取](#更新式快取)
 * [非同步機制](#非同步機制)
     * [訊息佇列](#訊息佇列)
     * [工作佇列](#工作佇列)
     * [背壓機制](#背壓機制)
 * [通訊](#通訊)
-    * [傳輸控制通訊協定(TCP)](#傳輸控制通訊協定(TCP))
+    * [傳輸控制通訊協定(TCP)](#傳輸控制通訊協定tcp)
     * [使用者資料流通訊協定 (UDP)](#使用者資料流通訊協定-udp)
     * [遠端程式呼叫 (RPC)](#遠端程式呼叫-rpc)
     * [具象狀態轉移 (REST)](#具象狀態轉移-rest)
 * [資訊安全](#資訊安全)
 * [附錄](#附錄)
     * [2 的次方表](#2-的次方表)
-    * [每個開發者都應該知道的延遲數量](#每個開發者都應該知道的延遲數量)
+    * [每個開發者都應該知道的延遲數量級](#每個開發者都應該知道的延遲數量級)
     * [其他的系統設計面試問題](#其他的系統設計面試問題)
     * [真實世界的架構](#真實世界的架構)
     * [公司的系統架構](#公司的系統架構)
@@ -384,7 +384,7 @@
 
 ### 第二步：複習關於可擴展性的文章
 
-[可擴展性](http://www.lecloud.net/tagged/scalability)
+[可擴展性](http://www.lecloud.net/tagged/scalability/chrono)
 
 * 包含以下主題：
     * [複製](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
@@ -435,7 +435,7 @@
 ### CAP 理論
 
 <p align="center">
-  <img src="http://i.imgur.com/bgLMI2u.png">
+  <img src="http://i.imgur.com/bgLMI2u.png"/>
   <br/>
   <i><a href=http://robertgreiner.com/2014/08/cap-theorem-revisited>來源：再看 CAP 理論</a></i>
 </p>
@@ -529,7 +529,7 @@ DNS 或是電子郵件系統使用的就是這種方式，最終一致性在高�
 ## 域名系統
 
 <p align="center">
-  <img src="http://i.imgur.com/IOyLj4i.jpg">
+  <img src="http://i.imgur.com/IOyLj4i.jpg"/>
   <br/>
   <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>資料來源：DNS 安全介紹</a></i>
 </p>
@@ -567,7 +567,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 內容傳遞網路(CDN)
 
 <p align="center">
-  <img src="http://i.imgur.com/h9TAuGI.jpg">
+  <img src="http://i.imgur.com/h9TAuGI.jpg"/>
   <br/>
   <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>來源：為什麼要使用 CDN</a></i>
 </p>
@@ -608,7 +608,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 負載平衡器
 
 <p align="center">
-  <img src="http://i.imgur.com/h81n9iK.png">
+  <img src="http://i.imgur.com/h81n9iK.png"/>
   <br/>
   <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>來源：可擴展的系統設計模式</a></i>
 </p>
@@ -623,7 +623,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 
 其餘額外的好處有：
 
-* **SSL 終結** - 將傳入的請求解密，並且加密伺服器的回應，如此一來後端伺服器就不需要進行這些高度消耗資源的願算
+* **SSL 終結** - 將傳入的請求解密，並且加密伺服器的回應，如此一來後端伺服器就不需要進行這些高度消耗資源的運算
     * 不需要在每一台機器上安裝 [X.509 憑證](https://en.wikipedia.org/wiki/X.509)。
 * **Session 保存** - 發行 cookie，並將特定使用者的請求路由到同樣的後端伺服器上。
 
@@ -678,7 +678,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 反向代理(網頁伺服器)
 
 <p align="center">
-  <img src="http://i.imgur.com/n41Azff.png">
+  <img src="http://i.imgur.com/n41Azff.png"/>
   <br/>
   <i><a href=https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg>來源：維基百科</a></i>
   <br/>
@@ -721,7 +721,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 應用層
 
 <p align="center">
-  <img src="http://i.imgur.com/yB5SYwm.png">
+  <img src="http://i.imgur.com/yB5SYwm.png"/>
   <br/>
   <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>資料來源：可縮放式系統架構介紹</a></i>
 </p>
@@ -750,7 +750,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ### 來源與延伸閱讀
 
 * [可擴展式系統架構介紹](http://lethain.com/introduction-to-architecting-systems-for-scale)
-* [破解系統設計面試](http://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview/)
+* [破解系統設計面試](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
 * [面向服務架構](https://en.wikipedia.org/wiki/Service-oriented_architecture)
 * [Zookeeper 介紹](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper)
 * [建構微服務系統你所需要知道的一切](https://cloudncode.wordpress.com/2016/07/22/msa-getting-started/)
@@ -758,7 +758,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 資料庫
 
 <p align="center">
-  <img src="http://i.imgur.com/Xkm5CXz.png">
+  <img src="http://i.imgur.com/Xkm5CXz.png"/>
   <br/>
   <i><a href=https://www.youtube.com/watch?v=vg5onp8TU6Q>來源：擴展你的使用者數量到第一個一千萬量級</a></i>
 </p>
@@ -781,7 +781,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 主資料庫負責讀和寫，並且將寫入的資料複寫至一或多個從屬資料庫中，從屬資料庫只負責讀取。而從屬資料庫可以再將寫入複製到更多以樹狀結構的其他資料庫中。如果主資料庫離線了，系統可以以只讀模式運行，直到某個從屬資料庫被提升為主資料庫，或有新的主資料庫出現。
 
 <p align="center">
-  <img src="http://i.imgur.com/C9ioGtn.png">
+  <img src="http://i.imgur.com/C9ioGtn.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>來源： 可擴展性、可用性、穩定性及其模式</a></i>
 </p>
@@ -796,7 +796,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 兩個主要的資料庫都負責讀取和寫入，並且兩者互相協調。如果其中一個主要資料庫離線，系統可以繼續運作。
 
 <p align="center">
-  <img src="http://i.imgur.com/krAHLGg.png">
+  <img src="http://i.imgur.com/krAHLGg.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>來源： 可擴展性、可用性、穩定性及其模式</a></i>
 </p>
@@ -824,7 +824,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 #### 聯邦式資料庫
 
 <p align="center">
-  <img src="http://i.imgur.com/U3qV33e.png">
+  <img src="http://i.imgur.com/U3qV33e.png"/>
   <br/>
   <i><a href=https://www.youtube.com/watch?v=vg5onp8TU6Q>來源：擴展你的使用者數量到第一個一千萬量級</a></i>
 </p>
@@ -845,7 +845,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 #### 分片
 
 <p align="center">
-  <img src="http://i.imgur.com/wU8x5Id.png">
+  <img src="http://i.imgur.com/wU8x5Id.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>來源： 可擴展性、可用性、穩定性及其模式</a></i>
 </p>
@@ -918,7 +918,7 @@ SQL 優化是一個涵蓋範圍很廣的主題，有許多相關的 [參考書�
 * 當你使用 (`SELECT`, `GROUP BY`, `ORDER BY`, `JOIN`) 這些操作的對應欄位如果有使用索引就會查詢更快。
 * 索引通常是使用平衡 [B 樹](https://en.wikipedia.org/wiki/B-tree) 表示，這樣可以保證資料是有序的，並允許在對數時間內進行搜尋、循序訪問以及插入、刪除等操作。
 * 設定索引時，會將資料放置於記憶體中，會佔用更多記憶體空間。
-* 寫入操作會變慢，因為所隱諱需要更新。
+* 寫入操作會變慢，因為索引會需要更新。
 * 當讀取大量資料時，禁用索引再讀取，之後再重新建立索引，這樣也許會更快。
 
 ##### 避免高成本的 Join 操作
@@ -991,7 +991,7 @@ NoSQL 指的是 **鍵-值對的資料庫**、**文件類型資料庫**、**列�
 #### 列儲存型資料庫
 
 <p align="center">
-  <img src="http://i.imgur.com/n16iOGk.png">
+  <img src="http://i.imgur.com/n16iOGk.png"/>
   <br/>
   <i><a href=http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html>來源：SQL 和 NoSQL，簡短的歷史介紹</a></i>
 </p>
@@ -1014,7 +1014,7 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 #### 圖形資料庫
 
 <p align="center">
-  <img src="http://i.imgur.com/fNcl65g.png">
+  <img src="http://i.imgur.com/fNcl65g.png"/>
   <br/>
   <i><a href=https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png>來源： 圖形化資料庫</a></i>
 </p>
@@ -1042,7 +1042,7 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 ### SQL 或 NoSQL
 
 <p align="center">
-  <img src="http://i.imgur.com/wXGqG5f.png">
+  <img src="http://i.imgur.com/wXGqG5f.png"/>
   <br/>
   <i><a href=https://www.infoq.com/articles/Transition-RDBMS-NoSQL/>來源：從 RDBMS 轉換到 NoSQL</a></i>
 </p>
@@ -1065,7 +1065,7 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 * 非關連式資料
 * 不需要複雜的 joins
 * 儲存 TB (或 PB) 等級的資料
-* 高資料密集亮的工作負載
+* 高資料密集量的工作負載
 * IOPS 的高吞吐量
 
 適合使用 NoSQL 的範例：
@@ -1084,7 +1084,7 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 ## 快取
 
 <p align="center">
-  <img src="http://i.imgur.com/Q6z24La.png">
+  <img src="http://i.imgur.com/Q6z24La.png"/>
   <br/>
   <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>來源：可擴展的系統設計模式</a></i>
 </p>
@@ -1121,7 +1121,7 @@ Redis 還有以下額外的功能：
 你可以快取的級別有好幾種，大致上分為兩類：**資料庫查詢** 和 **物件**：
 
 * 記錄級別
-* 查詢及別
+* 查詢級別
 * 完整的可序列化物件
 * 完整的 HTML
 
@@ -1155,7 +1155,7 @@ Redis 還有以下額外的功能：
 #### 快取模式
 
 <p align="center">
-  <img src="http://i.imgur.com/ONjORqk.png">
+  <img src="http://i.imgur.com/ONjORqk.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>資料來源：從快取到記憶體資料網格</a></i>
 </p>
@@ -1167,7 +1167,7 @@ Redis 還有以下額外的功能：
 * 將該筆記錄儲存到快取
 * 將資料返回
 
-```
+```python
 def get_user(self, user_id):
     user = cache.get("user.{0}", user_id)
     if user is None:
@@ -1191,7 +1191,7 @@ def get_user(self, user_id):
 #### 寫入模式
 
 <p align="center">
-  <img src="http://i.imgur.com/0vBc0hN.png">
+  <img src="http://i.imgur.com/0vBc0hN.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>資料來源：可獲展性、可用性、穩定性與模式</a></i>
 </p>
@@ -1210,7 +1210,7 @@ set_user(12345, {"foo":"bar"})
 
 快取程式碼：
 
-```
+```python
 def set_user(user_id, values):
     user = db.query("UPDATE Users WHERE id = {0}", user_id, values)
     cache.set(user_id, user)
@@ -1226,7 +1226,7 @@ def set_user(user_id, values):
 #### 事後寫入(回寫)
 
 <p align="center">
-  <img src="http://i.imgur.com/rgSrvjG.png">
+  <img src="http://i.imgur.com/rgSrvjG.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>資料來源：可獲展性、可用性、穩定性與模式</a></i>
 </p>
@@ -1244,7 +1244,7 @@ def set_user(user_id, values):
 #### 更新式快取
 
 <p align="center">
-  <img src="http://i.imgur.com/kxtjqgE.png">
+  <img src="http://i.imgur.com/kxtjqgE.png"/>
   <br/>
   <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>來源：從快取到記憶體資料網格技術</a></i>
 </p>
@@ -1276,7 +1276,7 @@ def set_user(user_id, values):
 ## 非同步機制
 
 <p align="center">
-  <img src="http://i.imgur.com/54GYsSx.png">
+  <img src="http://i.imgur.com/54GYsSx.png"/>
   <br/>
   <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>資料來源：可縮放性系統架構介紹</a></i>
 </p>
@@ -1322,7 +1322,7 @@ def set_user(user_id, values):
 ## 通訊
 
 <p align="center">
-  <img src="http://i.imgur.com/5KeocQs.jpg">
+  <img src="http://i.imgur.com/5KeocQs.jpg"/>
   <br/>
   <i><a href=http://www.escotal.com/osilayer.html>來源：OSI 七層模型</a></i>
 </p>
@@ -1354,7 +1354,7 @@ HTTP 是依賴於較底層的協議(例如：**TCP** 和 **UDP**) 的應用層�
 ### 傳輸控制通訊協定(TCP)
 
 <p align="center">
-  <img src="http://i.imgur.com/JdAsdvG.jpg">
+  <img src="http://i.imgur.com/JdAsdvG.jpg"/>
   <br/>
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>來源：如何開發多人遊戲</a></i>
 </p>
@@ -1378,7 +1378,7 @@ TCP 對於需要高可靠、低時間急迫性的應用來說很有用，比如�
 ### 使用者資料流通訊協定 (UDP)
 
 <p align="center">
-  <img src="http://i.imgur.com/yzDrJtA.jpg">
+  <img src="http://i.imgur.com/yzDrJtA.jpg"/>
   <br/>
   <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>資料來源：如何製作多人遊戲</a></i>
 </p>
@@ -1407,9 +1407,9 @@ UDP 的可靠性較低，但適合用在像是網路電話、視訊聊天、串�
 ### 遠端程式呼叫 (RPC)
 
 <p align="center">
-  <img src="http://i.imgur.com/iF4Mkb5.png">
+  <img src="http://i.imgur.com/iF4Mkb5.png"/>
   <br/>
-  <i><a href=http://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview/>資料來源：破解系統設計面試</a></i>
+  <i><a href=http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview>資料來源：破解系統設計面試</a></i>
 </p>
 
 在一個 RPC 中，客戶端會去呼叫另外一個位置空間(通常是在遠端的伺服器)的方法。呼叫的方式就像是呼叫本地端的一個方法一樣，客戶端和伺服器溝通的具體過程被抽象化，而遠端呼叫相較於本地端呼叫來說一般較慢，而且可靠性較差，因此了解如何區別這兩種方法是必要的。熱門的 RPC 框架包含了 [Protobuf](https://developers.google.com/protocol-buffers/)、[Thrift](https://thrift.apache.org/) 和 [Avro](https://avro.apache.org/docs/current/)。
@@ -1505,7 +1505,7 @@ REST 關注於揭露資料，減少客戶端/伺服器之間耦合的程度，�
 * [REST 和 JSON-RPC](http://stackoverflow.com/questions/15056878/rest-vs-json-rpc)
 * [揭開 RPC 和 REST 的神秘面紗](http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)
 * [使用 REST 的缺點](https://www.quora.com/What-are-the-drawbacks-of-using-RESTful-APIs)
-* [破解系統設計面試](http://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview/)
+* [破解系統設計面試](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
 * [Thrift](https://code.facebook.com/posts/1468950976659943/)
 * [為什麼在內部要使用 REST 而不是 RPC](http://arstechnica.com/civis/viewtopic.php?t=1190508)
 
@@ -1556,7 +1556,7 @@ REST 關注於揭露資料，減少客戶端/伺服器之間耦合的程度，�
 L1 快取參考數量級                           0.5 ns
 Branch mispredict                            5   ns
 L2 快取參考數量級                             7   ns                      14x L1 cache
-Mutex lock/unlock                          100   ns
+Mutex lock/unlock                          25   ns
 主記憶體參考數量級                      100   ns                      20x L2 cache, 200x L1 cache
 Compress 1K bytes with Zippy            10,000   ns       10 us
 Send 1 KB bytes over 1 Gbps network     10,000   ns       10 us
@@ -1630,7 +1630,7 @@ Notes
 > 底下是關於真實世界的系統架構是如何設計的文章
 
 <p align="center">
-  <img src="http://i.imgur.com/TcUo2fw.png">
+  <img src="http://i.imgur.com/TcUo2fw.png"/>
   <br/>
   <i><a href=https://www.infoq.com/presentations/Twitter-Timeline-Scalability>資料來源：可擴展式的 Twitter 時間軸設計</a></i>
 </p>
@@ -1767,7 +1767,7 @@ Notes
 * [mmcgrana/services-engineering](https://github.com/mmcgrana/services-engineering)
 * [System design cheat sheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 * [A distributed systems reading list](http://dancres.github.io/Pages/)
-* [Cracking the system design interview](http://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview/)
+* [Cracking the system design interview](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
 
 ## 聯絡資訊
 
